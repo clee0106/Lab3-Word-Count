@@ -56,7 +56,7 @@ class WordAnalyzer:
             print(f"{word:<20} :: {count}")
 
 
-    def main():
+def main():
         """Display the menu and handle user choices."""
         base_path = Path(__file__).resolve().parent
 
